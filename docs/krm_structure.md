@@ -10,8 +10,8 @@
 | Занятие 1.2 | Архитектура GPU: SM, warp, Tensor Cores, NVLink, HBM | Л | 2 | HPC-1 | HPC-1.1 | Базовый |
 | Занятие 1.3 | FPGA/NPU для ИИ: LUT/DSP/BRAM, Xilinx Versal, Intel Agilex | Л | 2 | HPC-1 | HPC-1.2 | Базовый |
 | Занятие 1.4 | Выбор платформы: матрица VRAM/BW/TDP/TCO для CV/LLM/edge | Л | 2 | HPC-1 | HPC-1.1 | Продвинутый |
-| ЛР1 | Профилирование GPU: nvidia-smi, DCGM, PyTorch Profiler | ПР | 4 | HPC-1 | HPC-1.2 | Базовый |
-| ЛР2 | Бенчмаркинг платформ: ResNet-50/BERT-base: latency, throughput, bottleneck | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Базовый |
+| | ПР1 | Профилирование GPU: nvidia-smi, DCGM, PyTorch Profiler | ПР | 4 | HPC-1 | HPC-1.2 | Базовый |
+| | ПР2 | Бенчмаркинг платформ: ResNet-50/BERT-base: latency, throughput, bottleneck | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Базовый |
 
 ## Модуль 2. Программно-инфраструктурный слой
 
@@ -21,8 +21,8 @@
 | Занятие 2.2 | Контейнеризация: Docker, multi-stage build, nvidia-container-toolkit | Л | 2 | LC-5 | LC-5.1 | Базовый |
 | Занятие 2.3 | Kubernetes: GPU scheduling, GPU Operator, Kubeflow, Helm | Л | 2 | LC-5 | LC-5.1 | Базовый |
 | Занятие 2.4 | CI/CD и мониторинг: GitOps (ArgoCD), Prometheus, Grafana, SLO | Л | 2 | LC-5 | LC-5.1 | Базовый |
-| ЛР3 | Настройка ML-окружения: NVIDIA-драйверы, CUDA, nvidia-container-toolkit, верификация | ПР | 4 | LC-5 | LC-5.1 | Базовый |
-| ЛР4 | Docker для ML: Multi-stage образ + Docker Compose: модель+API+мониторинг | ПР | 4 | LC-5 | LC-5.1 | Базовый |
+| | ПР3 | Настройка ML-окружения: NVIDIA-драйверы, CUDA, nvidia-container-toolkit, верификация | ПР | 4 | LC-5 | LC-5.1 | Базовый |
+| | ПР4 | Docker для ML: Multi-stage образ + Docker Compose: модель+API+мониторинг | ПР | 4 | LC-5 | LC-5.1 | Базовый |
 
 ## Модуль 3. Проектирование вычислительной архитектуры ИИ-систем
 
@@ -32,8 +32,8 @@
 | Занятие 3.2 | Расчёт ресурсов: Roofline, Arithmetic Intensity, VRAM-бюджет, Chinchilla Laws | Л | 2 | HPC-1, FC-1 | HPC-1.1, FC-1.3 | Продвинутый |
 | Занятие 3.3 | Распределённое обучение: Data/Tensor/Pipeline Parallelism, DeepSpeed ZeRO, NCCL | Л | 2 | FC-1 | FC-1.3 | Базовый |
 | Занятие 3.4 | Квантизация и оптимизация: INT8/INT4/FP8, AWQ, GPTQ, TensorRT, pruning, distillation | Л | 2 | FC-1 | FC-1.3 | Базовый |
-| ЛР5 | Roofline-анализ: Построение диаграммы, compute-bound vs memory-bound | ПР | 4 | HPC-1 | HPC-1.1 | Продвинутый |
-| ЛР6 | Расчёт архитектуры LLM: VRAM/BW для LLaMA-3 8B/70B; квантизация GPTQ/AWQ | ПР | 4 | HPC-1, FC-1 | HPC-1.1, FC-1.3 | Продвинутый |
+| | ПР5 | Roofline-анализ: Построение диаграммы, compute-bound vs memory-bound | ПР | 4 | HPC-1 | HPC-1.1 | Продвинутый |
+| | ПР6 | Расчёт архитектуры LLM: VRAM/BW для LLaMA-3 8B/70B; квантизация GPTQ/AWQ | ПР | 4 | HPC-1, FC-1 | HPC-1.1, FC-1.3 | Продвинутый |
 
 ## Модуль 4. Промышленный ML-инференс
 
@@ -43,8 +43,8 @@
 | Занятие 4.2 | Оптимизация инференса: PagedAttention, Flash Attention, Speculative Decoding, KV-cache | Л | 2 | HPC-1 | HPC-1.2 | Базовый |
 | Занятие 4.3 | Edge AI: Jetson Orin, Hailo-8, TFLite, CoreML, RKNN, OTA | Л | 2 | HPC-1 | HPC-1.2 | Базовый |
 | Занятие 4.4 | MLOps для инференса: Model registry, A/B-тест, canary deployment, drift detection | Л | 2 | LC-5 | LC-5.1 | Базовый |
-| ЛР7 | NVIDIA Triton / vLLM: Развёртывание CV-модели (ONNX) или LLM; нагрузочный тест | ПР | 4 | LC-5, HPC-1 | LC-5.1, HPC-1.2 | Базовый |
-| ЛР8 | Финальный проектный кейс: End-to-end: обучение→оптимизация→инференс→мониторинг; защита | ПР | 4 | LC-5, HPC-1 | LC-5.1, HPC-1.1, HPC-1.2 | Продвинутый |
+| | ПР7 | NVIDIA Triton / vLLM: Развёртывание CV-модели (ONNX) или LLM; нагрузочный тест | ПР | 4 | LC-5, HPC-1 | LC-5.1, HPC-1.2 | Базовый |
+| | ПР8 | Финальный проектный кейс: End-to-end: обучение→оптимизация→инференс→мониторинг; защита | ПР | 4 | LC-5, HPC-1 | LC-5.1, HPC-1.1, HPC-1.2 | Продвинутый |
 
 ## Зачёт с оценкой
 

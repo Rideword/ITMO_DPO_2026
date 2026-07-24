@@ -1,29 +1,53 @@
 .
 ├── data/
-│   ├── competency-catalog.csv
 │   ├── krm-v3.0.xlsx
-│   ├── README.md
-│   └── role-competency-matrix.csv
+│   └── README.md
 ├── docs/
+│   ├── krm_structure.md
 │   ├── quality-checklist.md
 │   ├── README.md
-│   ├── repository_example.pdf
 │   └── rpd.md
 ├── Exam/
 │   ├── attachments/
 │   │   └── .gitkeep
 │   └── README.md
-├── M1-module-name/
+├── M1-heterogeneous-platforms/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── README.md
-│   └── rubric-01.md
-├── M2-module-name/
+│   ├── Module-1_Lectures_Konspekt.md
+│   ├── Module-1_Lectures_Questions.md
+│   ├── Module-1_Resources_Software-Hardware.md
+│   ├── Module-1_Teacher_Lectures_Guide.md
+│   ├── Module-1_Test.md
+│   └── README.md
+├── M2-ml-infrastructure/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── kim-01-template.md
+│   ├── Modul-2_Lectures_Konspekt.md
+│   ├── Module-2_Lectures_Questions.md
+│   ├── Module-2_Practice_Grading.md
+│   ├── Module-2_Practice_Guide.md
+│   ├── Module-2_Resources_Software-Hardware.md
+│   ├── Module-2_Teacher_Lectures_Guide.md
+│   ├── Module-2_Test.md
+│   └── README.md
+├── M3-ai-architecture/
+│   ├── Module-3_Lectures_Konspekt.md
+│   ├── Module-3_Lectures_Questions.md
+│   ├── Module-3_Practice_Grading.md
+│   ├── Module-3_Practice_Guide.md
+│   ├── Module-3_Resources_Software-Hardware.md
+│   ├── Module-3_Teacher_Lectures_Guide.md
+│   ├── Module-3_Test.md
+│   └── README.md
+├── M4-ml-inference/
+│   ├── Module-4_Lectures_Konspekt.md
+│   ├── Module-4_Lectures_Questions.md
+│   ├── Module-4_Practice_Grading.md
+│   ├── Module-4_Practice_Guide.md
+│   ├── Module-4_Resources_Software-Hardware.md
+│   ├── Module-4_Teacher_Lectures_Guide.md
+│   ├── Module-4_Test.md
 │   └── README.md
 ├── methodical-guidelines/
 │   ├── students/
@@ -53,8 +77,9 @@
 │   ├── problem-banks/
 │   │   └── README.md
 │   ├── software/
-│   │   └── python-libs/
-│   │       └── README.md
+│   │   ├── python-libs/
+│   │   │   └── README.md
+│   │   └── README.md
 │   ├── test-banks/
 │   │   └── README.md
 │   ├── textbooks/
@@ -64,11 +89,8 @@
 │   ├── images/
 │   │   └── .gitkeep
 │   └── README.md
-├── tools/
-│   ├── README.md
-│   └── validate_repository.py
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── LICENSE.md
 ├── README.md
-└── validation-report.txt
+└── repository-tree.txt
