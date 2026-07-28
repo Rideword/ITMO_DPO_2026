@@ -6,7 +6,7 @@
 
 Docker Desktop или Docker Engine на Linux + NVIDIA Container Toolkit для запуска Triton и vLLM в контейнерах.
 
-NVIDIA GPU (рекомендуется от 8–16 ГБ VRAM для лёгких моделей типа Qwen2.5-0.5B/1.5B; от 24 ГБ VRAM для проектных моделей 7B в ЛР8).
+NVIDIA GPU (рекомендуется от 8–16 ГБ VRAM для лёгких моделей типа Qwen2.5-0.5B/1.5B; от 24 ГБ VRAM для проектных моделей 7B в ПР8).
 
 NVIDIA Triton Inference Server SDK container (nvcr.io/nvidia/tritonserver) для запуска perf_analyzer.
 
@@ -14,13 +14,13 @@ vLLM с OpenAI-совместимым API-сервером (`pip install vllm`).
 
 Python 3.8+ и библиотеки: locust, openai, numpy, matplotlib/seaborn.
 
-Git и GitHub/GitLab для командной работы над проектом (ЛР8) с требованием минимум 3 коммитов на участника.
+Git и GitHub/GitLab для командной работы над проектом (ПР8) с требованием минимум 3 коммитов на участника.
 
 Prometheus + Grafana для мониторинга метрик сервиса в рамках проектного задания.
 
 Доступ к моделям на Hugging Face Hub (Qwen2.5, LLaMA-3, facebook/opt, microsoft/phi-2 и др.).
 
-Для учебной версии ЛР7 достаточно одной GPU с 8–16 ГБ VRAM и локального ноутбука для клиентской части (Locust/perf_analyzer). Для проектного кейса (ЛР8) при работе с моделями 7B и выше требуется GPU от 24 ГБ VRAM либо доступ к облачной платформе (AWS, GCP, Azure, Yandex Cloud, SberCloud) или GPU-серверу кафедры/индустриального партнёра.
+Для учебной версии ПР7 достаточно одной GPU с 8–16 ГБ VRAM и локального ноутбука для клиентской части (Locust/perf_analyzer). Для проектного кейса (ПР8) при работе с моделями 7B и выше требуется GPU от 24 ГБ VRAM либо доступ к облачной платформе (AWS, GCP, Azure, Yandex Cloud, SberCloud) или GPU-серверу кафедры/индустриального партнёра.
 
 Рекомендованный набор для выполнения практических занятий
 

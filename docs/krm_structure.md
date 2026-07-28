@@ -32,8 +32,8 @@
 | Занятие 3.2 | Расчёт ресурсов (Compute Estimation & Profiling) | Л | 2 | HPC-1 | HPC-1.2 | Продвинутый | Рассчитывает VRAM, BW, FLOP/token; знает Roofline и Chinchilla Laws |
 | Занятие 3.3 | Распределённое обучение (Distributed Training) | Л | 2 | HPC-1 | HPC-1.2 | Продвинутый | Знает Data/Tensor/Pipeline Parallelism; ориентируется в DeepSpeed ZeRO и NCCL |
 | Занятие 3.4 | Квантизация (Quantization) и сжатие моделей | Л | 2 | HPC-1 | HPC-1.2 | Продвинутый | Знает методы INT8/INT4/FP8 квантизации; понимает влияние на perplexity и latency |
-| ЛР5 | Roofline-анализ: определение compute-bound и memory-bound операций | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Продвинутый | Строит Roofline-диаграмму; определяет compute-bound / memory-bound операции |
-| ЛР6 | Расчёт архитектуры LLM: VRAM, пропускная способность, квантизация и перплексия | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Продвинутый | Рассчитывает VRAM/BW для LLaMA-3; применяет квантизацию; измеряет перплексию |
+| ПР5 | Roofline-анализ: определение compute-bound и memory-bound операций | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Продвинутый | Строит Roofline-диаграмму; определяет compute-bound / memory-bound операции |
+| ПР6 | Расчёт архитектуры LLM: VRAM, пропускная способность, квантизация и перплексия | ПР | 4 | HPC-1 | HPC-1.1, HPC-1.2 | Продвинутый | Рассчитывает VRAM/BW для LLaMA-3; применяет квантизацию; измеряет перплексию |
 
 ## Модуль 4. Промышленный ML-инференс
 

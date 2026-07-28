@@ -82,11 +82,11 @@
 | Сем. | Вид / тема СРС | Литература / ресурс | Ч. |
 |---|---|---|---|
 | 4 | Подготовка к ПР 1–2: профилирование GPU, бенчмаркинг (Модуль 1) | NVIDIA CUDA Programming Guide; PyTorch Profiler docs; MLPerf | 5 |
-| 4 | Подготовка к ЛР 3–4: ML-окружение, Docker (Модуль 2) | Docker docs; NVIDIA Container Toolkit docs; DCGM documentation | 5 |
+| 4 | Подготовка к ПР 3–4: ML-окружение, Docker (Модуль 2) | Docker docs; NVIDIA Container Toolkit docs; DCGM documentation | 5 |
 | 4 | Проработка: Roofline-модель, расчёт ресурсов LLM (Модуль 3) | Williams et al. Roofline (2009); DeepSpeed docs; Megatron-LM paper | 5 |
-| 4 | Подготовка к ЛР 5–6: Roofline-анализ, расчёт ресурсов LLM, квантизация (Модуль 3) | Williams et al. Roofline (2009); DeepSpeed docs; llama.cpp docs; AWQ paper | 5 |
-| 4 | Подготовка к ЛР 7: Triton / vLLM (Модуль 4) | vLLM docs; NVIDIA Triton Inference Server docs; TorchServe docs | 5 |
-| 4 | Подготовка к ЛР 8 (финальный кейс) + оформление проекта (Модуль 4) | Hugging Face docs; MLflow docs; Papers with Code; NVIDIA Developer Blog | 6 |
+| 4 | Подготовка к ПР 5–6: Roofline-анализ, расчёт ресурсов LLM, квантизация (Модуль 3) | Williams et al. Roofline (2009); DeepSpeed docs; llama.cpp docs; AWQ paper | 5 |
+| 4 | Подготовка к ПР 7: Triton / vLLM (Модуль 4) | vLLM docs; NVIDIA Triton Inference Server docs; TorchServe docs | 5 |
+| 4 | Подготовка к ПР 8 (финальный кейс) + оформление проекта (Модуль 4) | Hugging Face docs; MLflow docs; Papers with Code; NVIDIA Developer Blog | 6 |
 | 4 | Подготовка к зачёту с оценкой | Суворова Е.А. Архитектура параллельных вычислительных систем (Лань, 2022); MLSys Proceedings | 9,75 |
 | | **Итого СРС:** | | **40,75** |
 
@@ -169,9 +169,9 @@
 | КТ 1 | Тест | Гетерогенные вычислительные архитектуры |
 | КТ 2 | Отчёт | ПР 1–2: профилирование и бенчмаркинг |
 | КТ 3 | Тест | Инфраструктура, контейнеризация и CI/CD |
-| | КТ 4 | Отчёт | ЛР 3–4: ML-окружение и Docker |
+| | КТ 4 | Отчёт | ПР 3–4: ML-окружение и Docker |
 | | КТ 5 | Тест | Тест по модулю 3: проектирование вычислительной архитектуры ИИ-систем |
-| | КТ 6 | Защита | Итоговая ЛР 8 |
+| | КТ 6 | Защита | Итоговая ПР 8 |
 | — | Дифференцированный зачёт | Вопросы по всем модулям дисциплины |
 
 **Шкала итоговой оценки:**

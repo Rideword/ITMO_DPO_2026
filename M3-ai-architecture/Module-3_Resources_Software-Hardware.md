@@ -14,7 +14,7 @@ llama.cpp (собранный из исходников) для конверта
 
 NVIDIA GPU (рекомендуется от 16 ГБ VRAM для инференса LLaMA-3 8B в FP16; от 8 ГБ для квантованных INT4-версий; CPU-режим приемлем для GGUF-инференса при отсутствии GPU).
 
-NVIDIA Nsight Systems и Nsight Compute для профайлинга (ЛР5).
+NVIDIA Nsight Systems и Nsight Compute для профайлинга (ПР5).
 
 PyTorch с встроенным torch.profiler для анализа операторов на уровне фреймворка.
 
@@ -22,14 +22,14 @@ PyTorch с встроенным torch.profiler для анализа опера�
 
 Датасеты WikiText-2 и C4 (загружаются через библиотеку datasets) для измерения perplexity.
 
-Для учебной версии ЛР5 достаточно локального ноутбука с Python и Excel/Matplotlib — расчёты выполняются аналитически без запуска реальной модели. Для ЛР6 при работе с LLaMA-3 8B в FP16 требуется GPU от 16 ГБ VRAM либо облачная платформа (AWS, GCP, Azure, Yandex Cloud, SberCloud); квантованные версии (INT4/GGUF) можно запускать на GPU от 8 ГБ или на CPU.
+Для учебной версии ПР5 достаточно локального ноутбука с Python и Excel/Matplotlib — расчёты выполняются аналитически без запуска реальной модели. Для ПР6 при работе с LLaMA-3 8B в FP16 требуется GPU от 16 ГБ VRAM либо облачная платформа (AWS, GCP, Azure, Yandex Cloud, SberCloud); квантованные версии (INT4/GGUF) можно запускать на GPU от 8 ГБ или на CPU.
 
 Рекомендованный набор для выполнения практических занятий
 
 | Компонент | Рекомендация | Зачем |
 | :---- | :---- | :---- |
-| Расчёты и визуализация | Python, NumPy, Matplotlib | Roofline-диаграмма, таблицы AI/FLOPs (ЛР5) |
-| Квантизация (Hugging Face) | Transformers, BitsAndBytes, AutoGPTQ | NF4/FP4/GPTQ-квантизация LLaMA-3 (ЛР6) |
+| Расчёты и визуализация | Python, NumPy, Matplotlib | Roofline-диаграмма, таблицы AI/FLOPs (ПР5) |
+| Квантизация (Hugging Face) | Transformers, BitsAndBytes, AutoGPTQ | NF4/FP4/GPTQ-квантизация LLaMA-3 (ПР6) |
 | Квантизация (CPU/Edge) | llama.cpp, GGUF | Q4_K_M-квантизация, измерение perplexity |
 | Профайлинг | NVIDIA Nsight Systems, Nsight Compute | Анализ узких мест GPU-ядер |
 | Вычислительная платформа | NVIDIA GPU 8–24+ ГБ VRAM либо CPU | Инференс LLaMA-3 8B/70B в разных форматах |
