@@ -17,3 +17,6 @@ venv/
 
 # Локальные результаты проверки
 validation-report.txt
+
+# Папка data с КРМ
+data/
