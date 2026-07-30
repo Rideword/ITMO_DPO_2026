@@ -64,6 +64,8 @@
 │   │   └── .gitkeep
 │   └── README.md
 ├── resources/
+│   ├── ai-standards/
+│   │   └── README.md
 │   ├── benchmarks/
 │   │   └── README.md
 │   ├── datasets/
